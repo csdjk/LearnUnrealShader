@@ -1,0 +1,4 @@
+float3 Test()
+{
+    return float3(1,1,1);
+}
