@@ -1,4 +1,10 @@
-float3 Test()
+
+
+half Mask2D(float2 uv, float2 center, float intensity, float roundness, float smoothness)
 {
-    return float3(1,1,1);
+    float2 d = abs(uv - center) * intensity;
+    d = pow(saturate(d), roundness);
+    float dist = length(d);
+    float vfactor = pow(saturate(1 - dist * dist), smoothness);
+    return vfactor;
 }

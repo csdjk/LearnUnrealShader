@@ -1,0 +1,2 @@
+
+return Mask2D(uv, center, intensity, roundness, smoothness);
