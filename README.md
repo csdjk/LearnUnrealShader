@@ -27,3 +27,7 @@
 ## ActionLines
 
 ![1707291770917](image/README/1707291770917.gif)
+
+## PixelationFilter
+
+![1709284339524](image/README/1709284339524.png)
